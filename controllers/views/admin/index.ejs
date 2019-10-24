@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin page</title>
+</head>
+<body>
+	<h1>Welcome to Admin page</h1>
+	<a href="admin/addproducts">Add Product</a> | 
+	<a href="admin/deleteproducts">Delete Product</a> | 
+	<a href="admin/deletecustomer">Delete Customer</a> | 
+	<a href="admin/logout">logout</a>
+
+	
+	 <table>
+			<tr>
+					<td>Id:</td>
+					<td><%= id %></td>
+				</tr>
+		 
+			 <tr>
+					<td>Name:</td>
+					<td><%= name %></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><%= gender%></td>
+				</tr>
+				<tr>
+					<td>Usertype:</td>
+					<td><%= usertype %></td>
+				</tr>
+				<tr>
+					<td>Username:</td>
+					<td><%= username %></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><%= password %></td>
+				</tr>
+
+		 
+	</table>
+</body>
+</html>
