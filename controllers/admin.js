@@ -21,6 +21,9 @@ router.get('/deletecustomer', function(request, response){
 router.get('/addproducts', function(request, response){
 	response.render('admin/addproducts');
 });
+router.get('/editprofile', function(request, response){
+	response.render('admin/editprofile');
+});
 
 
 
