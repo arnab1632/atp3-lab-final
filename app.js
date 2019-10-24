@@ -6,6 +6,7 @@ var express = require('express');
 var ejs = require('ejs');
 var login = require('./controllers/login');
 var register = require('./controllers/register');
+var admin = require('./controllers/admin');
 //var user = require('./controllers/user');
 //var logout = require('./controllers/logout');
 var app = express();
@@ -20,6 +21,7 @@ app.set('view engine', 'ejs');
 //app.use(cookieParser());
 app.use('/login', login);
 app.use('/register', register);
+app.use('/admin', admin);
 //app.use('/user', user);
 //app.use('/logout', logout);
 
